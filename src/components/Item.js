@@ -2,7 +2,6 @@ import React from "react";
 import "./Item.css";
 import Button from "./Button.js";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-
 function Item({
   title,
   desc,
@@ -47,5 +46,4 @@ function Item({
     </div>
   );
 }
-
 export default Item;

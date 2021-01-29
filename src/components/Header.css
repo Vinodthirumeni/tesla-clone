@@ -1,52 +1,66 @@
 .header {
-  display: flex;
-  background-color: transparent;
   background: none;
-  position: fixed;
-  width: 100vw;
-  top: 0;
+  background-color: transparent;
+  display: flex;
+  font-size: 14px;
   margin: 15px;
   margin-top: 10px;
+  position: fixed;
+  top: 0;
+  width: 100vw;
   z-index: 100;
-  font-size: 14px;
 }
-
 .header__logo {
-  height: 12px;
-  width: 100px;
-  margin-top: 7px;
   display: flex;
   flex: 0.2;
+  height: 12px;
+  margin-top: 7px;
+  width: 100px;
 }
-
 .header__logo > img {
   height: 15px;
   width: 100px;
 }
-
 .header__center {
   display: flex;
   flex: 0.6;
   justify-content: center;
 }
-
 .header__center > a {
   color: black;
   margin: 10px;
-  text-transform: uppercase;
   text-decoration: none;
+  text-transform: uppercase;
 }
-
 .header__right {
+  align-items: center;
   display: flex;
   flex: 0.2;
   justify-content: flex-end;
-  text-transform: uppercase;
-  align-items: center;
   margin-right: 50px;
+  text-transform: uppercase;
 }
-
 .header__right > p {
   margin: 10px;
   text-transform: uppercase;
+}
+@media only screen and (max-width: 767px) {
+  .header__logo > img {
+    height: 30px;
+    width: 200px;
+  }
+  .header__center,
+  .header__right {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+  .header__logo > img {
+    height: 30px;
+    width: 200px;
+  }
+  .header__center,
+  .header__right {
+    display: none;
+  }
 }

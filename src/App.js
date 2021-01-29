@@ -1,8 +1,6 @@
 import "./App.css";
 import Header from "./components/Header.js";
 import Footer from "./components/Footer.js";
-
-
 import Item from "./components/Item.js";
 import Accessories from "./assets/Desktop-Accessories.jpg";
 import ModelS from "./assets/Desktop-ModelS.jpeg";
@@ -11,7 +9,6 @@ import ModelX from "./assets/Desktop-ModelX.jpeg";
 import ModelY from "./assets/Desktop-ModelY.jpeg";
 import SolarPanel from "./assets/Desktop-SolarPanels.jpeg";
 import SolarRoof from "./assets/Desktop-SolarRoof.jpeg";
-
 function App() {
   return (
     <div className="app">
@@ -20,83 +17,81 @@ function App() {
         <Item
           title="Lowest Cost Solar Panels in America"
           desc="Money-back guarantee"
-          descLink=""
+          descLink="https://tesla-clone-9ea17.web.app/https://tesla-clone-9ea17.web.app/"
           backGroundImage={SolarPanel}
           leftBtnText="ORDER NOW"
-          leftBtnLink="https://www.tesla.com/energy/design"
+          leftBtnLink="https://tesla-clone-9ea17.web.app/"
           rightBtnText="LEARN MORE"
-          rightBtnLink="https://www.tesla.com/solarpanels"
+          rightBtnLink="https://tesla-clone-9ea17.web.app/"
           twoButtons
           first
         />
         <Item
           title="Model S"
           desc="Starting at $69,420"
-          descLink=""
+          descLink="https://tesla-clone-9ea17.web.app/https://tesla-clone-9ea17.web.app/"
           backGroundImage={ModelS}
           leftBtnText="CUSTOM ORDER"
-          leftBtnLink="https://www.tesla.com/null_IN/models/design#battery"
+          leftBtnLink="https://tesla-clone-9ea17.web.app/https://tesla-clone-9ea17.web.app/"
           rightBtnText="EXISTING INVENTORY"
-          rightBtnLink="https://www.tesla.com/inventory/new/ms"
+          rightBtnLink="https://tesla-clone-9ea17.web.app/https://tesla-clone-9ea17.web.app/"
           twoButtons
         />
         <Item
           title="Model 3"
           desc="Order Online for Touchless Delivery"
-          descLink="https://www.tesla.com/support/delivery-options"
+          descLink="https://tesla-clone-9ea17.web.app/https://tesla-clone-9ea17.web.app/"
           backGroundImage={Model3}
           leftBtnText="CUSTOM ORDER"
-          leftBtnLink="https://www.tesla.com/null_IN/model3/design#battery"
+          leftBtnLink="https://tesla-clone-9ea17.web.app/https://tesla-clone-9ea17.web.app/"
           rightBtnText="EXISTING INVENTORY"
-          rightBtnLink="https://www.tesla.com/inventory/new/m3"
+          rightBtnLink="https://tesla-clone-9ea17.web.app/https://tesla-clone-9ea17.web.app/"
           twoButtons
         />
         <Item
           title="Model X"
           desc="Order Online for Touchless Delivery"
-          descLink="https://www.tesla.com/support/delivery-options"
+          descLink="https://tesla-clone-9ea17.web.app/https://tesla-clone-9ea17.web.app/"
           backGroundImage={ModelX}
           leftBtnText="CUSTOM ORDER"
-          leftBtnLink="https://www.tesla.com/null_IN/modelx/design#battery"
+          leftBtnLink="https://tesla-clone-9ea17.web.app/https://tesla-clone-9ea17.web.app/"
           rightBtnText="EXISTING INVENTORY"
-          rightBtnLink="https://www.tesla.com/inventory/new/mx"
+          rightBtnLink="https://tesla-clone-9ea17.web.app/https://tesla-clone-9ea17.web.app/"
           twoButtons
         />
         <Item
           title="Model Y"
           desc="Order Online for Touchless Delivery"
-          descLink="https://www.tesla.com/support/delivery-options"
+          descLink="https://tesla-clone-9ea17.web.app/https://tesla-clone-9ea17.web.app/"
           backGroundImage={ModelY}
           leftBtnText="CUSTOM ORDER"
-          leftBtnLink="https://www.tesla.com/null_IN/modely/design#battery"
+          leftBtnLink="https://tesla-clone-9ea17.web.app/https://tesla-clone-9ea17.web.app/"
           rightBtnText="EXISTING INVENTORY"
-          rightBtnLink="https://www.tesla.com/modely"
+          rightBtnLink="https://tesla-clone-9ea17.web.app/https://tesla-clone-9ea17.web.app/"
           twoButtons
         />
         <Item
           title="Solar for New Roofs"
           desc="Solar Roof Costs Less Than a New Roof Plus Solar Panels"
-          descLink=""
+          descLink="https://tesla-clone-9ea17.web.app/"
           backGroundImage={SolarRoof}
           leftBtnText="ORDER NOW"
-          leftBtnLink="https://www.tesla.com/solarroof/design"
+          leftBtnLink="https://tesla-clone-9ea17.web.app/"
           rightBtnText="LEARN MORE"
-          rightBtnLink="https://www.tesla.com/solarroof"
+          rightBtnLink="https://tesla-clone-9ea17.web.app/"
           twoButtons
         />
         <Item
           title="Accessories"
-          desc=""
-          descLink=""
+          desc="https://tesla-clone-9ea17.web.app/"
+          descLink="https://tesla-clone-9ea17.web.app/"
           backGroundImage={Accessories}
           leftBtnText="Shop Now"
-          leftBtnLink="https://shop.tesla.com/"
+          leftBtnLink="https://tesla-clone-9ea17.web.app/"
         />
-      <Footer />
-        
+        <Footer />
       </div>
     </div>
   );
 }
-
 export default App;
